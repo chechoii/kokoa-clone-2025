@@ -3,7 +3,8 @@
   z-index: 99;
   height: 100vh;
   width: 100vw;
-  background-color: var(--blue);
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReHORmu-whkaVYPnN6dcs1mI2jLkQDksgY9Q&s");
+  object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
