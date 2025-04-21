@@ -12,8 +12,19 @@
   font-size: 32px;
 }
 
+.no-mobile--find {
+  position: absolute;
+  top: 100vh; /* #no-mobile의 아래부터 시작 */
+  left: 0;
+  width: 100vw;
+  height: 500vh;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReHORmu-whkaVYPnN6dcs1mI2jLkQDksgY9Q&s");
+  z-index: 98; /* #no-mobile보다 낮게 */
+}
+
 @media screen and (max-width: 645px) {
-  #no-mobile {
+  #no-mobile,
+  .no-mobile--find {
     display: none;
   }
 }
